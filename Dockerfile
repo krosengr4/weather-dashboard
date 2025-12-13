@@ -3,8 +3,8 @@
 FROM nginx:alpine
 
 # Copy static files to nginx html directory
-COPY index.html /usr/share/nginx/html/
-COPY Assets/ /usr/share/nginx/html/Assets/
+COPY  index.html /usr/share/nginx/html/
+COPY  Assets/ /usr/share/nginx/html/Assets/
 
 # Expose port 80
 EXPOSE 80
