@@ -12,7 +12,7 @@ pipeline {
 
         // Pi connection details
         PI_HOST = 'rosenpi.local'  // or use '100.116.66.117'
-        PI_USER = 'kevin'
+        PI_USER = 'krosengren'
 
         // Deployment details
         CONTAINER_NAME = 'weather-dashboard'
